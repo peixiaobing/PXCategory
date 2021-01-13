@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'PXCategory'
-  s.version          = '0.1.0'
+  s.version          = '3.0'
   s.summary          = 'A short description of PXCategory.'
 
 # This description is used to generate tags and improve search results.
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/john/PXCategory'
+  s.homepage         = 'https://github.com/peixiaobing/PXCategory'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'john' => 'john@guojiang.tv' }
-  s.source           = { :git => 'https://github.com/john/PXCategory.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/peixiaobing/PXCategory.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
